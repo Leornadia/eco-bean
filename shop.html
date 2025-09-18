@@ -27,11 +27,13 @@
                     <li><a href="products.html">Products</a></li>
                     <li class="active"><a href="shop.html">Shop</a></li>
                     <li><a href="contact.html">Contact</a></li>
+                    <li class="cart-nav">
+                        <div class="cart-icon" onclick="toggleCart()">
+                            <span>🛒</span>
+                            <span class="cart-count" id="cartCount">0</span>
+                        </div>
+                    </li>
                 </ul>
-                <div class="cart-icon" onclick="toggleCart()">
-                    <span>🛒</span>
-                    <span class="cart-count" id="cartCount">0</span>
-                </div>
                 <div class="hamburger">
                     <span></span>
                     <span></span>
@@ -41,7 +43,7 @@
         </div>
     </header>
 
-    <section class="page-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/product image 3.jpeg'); background-size: cover; background-position: center;">
+    <section class="page-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/shop image.jpeg'); background-size: cover; background-position: center;">
         <div class="container">
             <h1>Shop Our Coffee</h1>
             <p>Premium sustainable coffee delivered to your door</p>
